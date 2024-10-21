@@ -460,7 +460,6 @@ aside .block.block_html .card-text ul li > a:hover:last-child {
 .format-topcoll .ctopics.ctoggled li.section.main .right > a:focus,
 .format-topcoll .ctopics.ctoggled li.section.main > .content .sectionhead:focus,
 .format-topics.editing .changenumsections a.add-sections:focus,
-.navbar.fixed-top .navbar-brand:focus,
 .path-mod-quiz #mod_quiz_navblock .othernav .endtestlink:focus,
 .path-mod-quiz #mod_quiz_navblock .qnbutton:focus,
 .primary-navigation .navigation .navbar-nav .nav-item .nav-link:focus,
@@ -1149,8 +1148,7 @@ aside .block.block_html .card-text > div > :last-child {
     .avatars
     .avatar,
 .btn.btn-icon,
-.drawer .drawerheader .drawertoggle,
-.navbar.fixed-top .navbar-toggler {
+.drawer .drawerheader .drawertoggle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1207,9 +1205,7 @@ table {
 .btn.btn-icon .icon,
 .btn.btn-icon i::before,
 .drawer .drawerheader .drawertoggle .icon,
-.drawer .drawerheader .drawertoggle i::before,
-.navbar.fixed-top .navbar-toggler .icon,
-.navbar.fixed-top .navbar-toggler i::before {
+.drawer .drawerheader .drawertoggle i::before {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1284,7 +1280,6 @@ table {
 .courseindex .courseindex-section .courseindex-item:not(:focus),
 .drawer-toggles .drawer-toggler .btn:not(:focus),
 .message-app .footer-container .text-center:not(:focus),
-.navbar.fixed-top .navbar-toggler:not(:focus),
 .path-mod-quiz #mod_quiz_navblock .othernav .endtestlink:not(:focus) {
     border: 2px solid transparent;
 }
@@ -1793,7 +1788,6 @@ aside .block.block_html .card-text ul li:not(:last-child) {
     .completioninfo
     .icon::before,
 .gd-selection-selector-item a span[class^="fa"],
-.navbar.fixed-top .navbar-toggler .navbar-toggler-icon,
 aside .block.block_advanced_links .card-text ul li .icon,
 aside .block.block_advanced_links .card-text ul li i,
 aside .block.block_html .card-text ul li .icon,
@@ -2228,26 +2222,14 @@ li.hvp .activityiconcontainer img {
     background-color: transparent;
 }
 .navbar.fixed-top {
-    flex-direction: row-reverse;
-    align-items: center;
-    height: auto;
-    padding: 0 0.5rem;
     border-bottom: 1px solid #dee2e6;
 }
-.navbar.fixed-top .navbar-toggler {
-    background-color: #005ad2;
-    color: #fff;
-    display: flex !important;
-    margin: 0 0 1px !important;
-    padding: 22px !important;
-}
-.drawer-toggles .drawer-toggler .btn:hover,
-.navbar.fixed-top .navbar-toggler:hover {
+
+.drawer-toggles .drawer-toggler .btn:hover {
     background-color: #002395;
     border: 2px solid #002395;
 }
-.drawer-toggles .drawer-toggler .btn:active,
-.navbar.fixed-top .navbar-toggler:active {
+.drawer-toggles .drawer-toggler .btn:active {
     border: 2px solid #002395;
 }
 .drawer-toggles .drawer-toggler .btn:focus,
@@ -2258,19 +2240,6 @@ li.hvp .activityiconcontainer img {
     content: "\f0c9";
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
-}
-.navbar.fixed-top .navbar-brand {
-    display: flex;
-    position: absolute;
-    left: 0.5rem;
-}
-.navbar.fixed-top .navbar-brand .logo {
-    max-height: unset;
-    margin-right: 0 !important;
-}
-#usernavigation form,
-.navbar.fixed-top > ul.navbar-nav {
-    display: none !important;
 }
 #page-header,
 .secondary-navigation .navigation .nav-tabs {
@@ -3507,10 +3476,6 @@ aside .block.block_html .card-text ul li {
     }
 	
     /* Logo removed section 1 */ 
-	
-	.navbar.fixed-top .navbar-toggler {
-        display: none !important;
-    }
 	
 	/* removed section 4 */
     
