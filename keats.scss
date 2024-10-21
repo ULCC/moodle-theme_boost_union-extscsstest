@@ -295,16 +295,6 @@ aside .block.block_html .card-text ul li > a:last-child::after {
 #page-content h2.accesshide + a:hover,
 #page-course-switchrole .mx-3.mb-1 > a :hover,
 #page-course-switchrole .singlebutton button[type="submit"] :hover,
-#usernavigation .popover-region .nav-link :hover,
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit
-    :hover,
-#usernavigation .simplesearchform .nav-link :hover,
 .btn :hover,
 .btn-outline-secondary :hover,
 .course-content .single-section .section-navigation .nextsection a:hover,
@@ -447,12 +437,6 @@ aside .block.block_html .card-text ul li > a:hover:last-child {
     > .list-group-item
     .event-action
     .list-group-item-action:focus,
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    input.form-control:focus,
 /*.btn:focus:not(:disabled):not(.disabled),*/
 .courseindex .courseindex-section .collapse ul > li:focus,
 .courseindex .courseindex-section:focus,
@@ -566,15 +550,6 @@ h4 {
 #page-content h2.accesshide + a p,
 #page-course-switchrole .mx-3.mb-1 > a,
 #page-course-switchrole .singlebutton button[type="submit"],
-#usernavigation .popover-region .nav-link,
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit,
-#usernavigation .simplesearchform .nav-link,
 .btn,
 .btn-outline-secondary,
 .course-content .single-section .section-navigation .nextsection a,
@@ -725,14 +700,7 @@ h6 {
     .form-group.row
     #id_timefilter_commentpoststats_label,
 #oublog-discover .card-text ul.oublog-accordion li .oublog_statsview_title h2,
-#usernavigation
-    .usermenu-container
-    #user-menu-toggle
-    .userbutton
-    .avatars
-    .avatar
-    .userinitials,
-.blockquote .quote-attribution,
+attribution,
 .blockquote .quote-attribution .author-name,
 .blockquote .quote-attribution .author-role,
 .blockquote .quote-attribution .hill,
@@ -763,15 +731,6 @@ h6 {
 #page-content h2.accesshide + a p,
 #page-course-switchrole .mx-3.mb-1 > a,
 #page-course-switchrole .singlebutton button[type="submit"],
-#usernavigation .popover-region .nav-link,
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit,
-#usernavigation .simplesearchform .nav-link,
 .btn,
 .btn-outline-secondary,
 .course-content .single-section .section-navigation .nextsection a,
@@ -853,19 +812,6 @@ h6 {
     .activity-description
     #ygtv0
     .fileuploadsubmissiontime,
-#usernavigation
-    .usermenu-container
-    #user-menu-toggle
-    .userbutton
-    .avatars
-    .avatar
-    .userinitials,
-#usernavigation
-    .usermenu-container
-    #user-menu-toggle
-    .userbutton
-    .usertext
-    .role,
 .blockquote .quote-attribution,
 .blockquote .quote-attribution .author-name,
 .blockquote .quote-attribution .author-role,
@@ -930,14 +876,6 @@ table caption {
     .form-group.row
     #id_timefilter_commentpoststats_label,
 #oublog-discover .card-text ul.oublog-accordion li .oublog_statsview_title h2,
-#usernavigation
-    .usermenu-container
-    #user-menu-toggle
-    .userbutton
-    .avatars
-    .avatar
-    .userinitials,
-#usernavigation .usermenu-container .usermenu .login a,
 .blockquote .quote-attribution,
 .blockquote .quote-attribution .author-name,
 .blockquote .quote-attribution h4,
@@ -958,12 +896,6 @@ strong {
     .activity-description
     #ygtv0
     .fileuploadsubmissiontime,
-#usernavigation
-    .usermenu-container
-    #user-menu-toggle
-    .userbutton
-    .usertext
-    .role,
 .blockquote .quote-attribution .author-role,
 .blockquote .quote-attribution .hill,
 .blockquote .quote-attribution h4 + h5,
@@ -1441,14 +1373,6 @@ table {
     margin-left: -2px;
 }
 #page-course-switchrole .singlebutton button[type="submit"],
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit,
-#usernavigation .simplesearchform .nav-link,
 .message-app .footer-container .text-center,
 .path-mod-quiz #mod_quiz_navblock .othernav .endtestlink {
     background-color: #005ad2;
@@ -1456,13 +1380,6 @@ table {
     padding: 4px 16px;
 }
 #page-course-switchrole .singlebutton button:hover[type="submit"],
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit:hover,
 #usernavigation .simplesearchform .nav-link:hover,
 .message-app .footer-container .text-center:hover,
 .path-mod-quiz #mod_quiz_navblock .othernav .endtestlink:hover {
