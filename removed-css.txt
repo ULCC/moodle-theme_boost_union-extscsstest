@@ -1,0 +1,8 @@
+	/* START of fix for Task-80174--Restore-top-nav-layout-following-Boost-Union-upgrade-to-4.4 */
+    /*.navbar.fixed-top .container-fluid {
+		flex-direction: column-reverse;
+        align-items: flex-end;
+        padding: 0 calc(3rem + 0.5rem + 15px + 0.75rem) 0
+            calc(3rem + 0.5rem + 15px + 8.5rem + 1rem);
+    }*/
+	/* END of fix for Task-80174--Restore-top-nav-layout-following-Boost-Union-upgrade-to-4.4 */
