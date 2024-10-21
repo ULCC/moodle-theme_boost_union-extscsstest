@@ -2309,6 +2309,8 @@ li.hvp .activityiconcontainer img {
 }
 .primary-navigation .navigation {
     height: 2.5rem;
+	/* added for new navbar design */
+	margin-left: 100px;
 }
 .primary-navigation .navigation .navbar-nav .nav-item .nav-link {
     height: fit-content;
