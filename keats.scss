@@ -1005,14 +1005,6 @@ blockquote:not(.quote-body):not(.no-icon)::before {
     color: #c7dfff;
     background-color: #0a2c50;
 }
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit,
-#usernavigation .usermenu #user-menu-toggle,
 .message-app
     .footer-container
     .emoji-picker-container
@@ -1057,21 +1049,6 @@ aside .block.block_html .card-text ul.key-contacts-list li > *,
 aside .block.block_html .card-text > div > :last-child {
     margin-bottom: 0;
 }
-#usernavigation .popover-region .nav-link,
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit,
-#usernavigation .simplesearchform .nav-link,
-#usernavigation
-    .usermenu-container
-    #user-menu-toggle
-    .userbutton
-    .avatars
-    .avatar,
 .btn.btn-icon,
 .drawer .drawerheader .drawertoggle {
     display: flex;
@@ -1093,40 +1070,6 @@ aside .block.block_html .card-text > div > :last-child {
 table {
     margin-bottom: 1.5rem;
 }
-#usernavigation .popover-region .nav-link .icon,
-#usernavigation .popover-region .nav-link i::before,
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit
-    .icon,
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit
-    i::before,
-#usernavigation .simplesearchform .nav-link .icon,
-#usernavigation .simplesearchform .nav-link i::before,
-#usernavigation
-    .usermenu-container
-    #user-menu-toggle
-    .userbutton
-    .avatars
-    .avatar
-    .icon,
-#usernavigation
-    .usermenu-container
-    #user-menu-toggle
-    .userbutton
-    .avatars
-    .avatar
-    i::before,
 .btn.btn-icon .icon,
 .btn.btn-icon i::before,
 .drawer .drawerheader .drawertoggle .icon,
@@ -1159,14 +1102,6 @@ table {
 #page-course-switchrole .mx-3.mb-1 > a,
 #page-course-switchrole .singlebutton button[type="submit"],
 #usernavigation .popover-region .nav-link,
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit,
-#usernavigation .simplesearchform .nav-link,
 .btn,
 .btn-outline-secondary,
 .format-topcoll
