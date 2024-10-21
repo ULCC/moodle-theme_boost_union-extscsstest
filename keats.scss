@@ -3503,14 +3503,16 @@ aside .block.block_html .card-text ul li {
     #page.drawers {
         margin-top: 6.5rem;
     }
-    /* Logo removed section */ 
+	
+    /* Logo removed section 1 */ 
+	
 	.navbar.fixed-top .navbar-toggler {
         display: none !important;
     }
-    .navbar.fixed-top .navbar-brand {
-        left: calc(3rem + 0.5rem + 15px);
-    }
-    #usernavigation .popover-region,
+	
+	/* removed section 4 */
+    
+	#usernavigation .popover-region,
     #usernavigation .simplesearchform,
     #usernavigation .usermenu-container {
         margin-right: 1rem;
@@ -3614,12 +3616,11 @@ aside .block.block_html .card-text ul li {
         .grid-section-inner::before {
         padding-top: calc(calc((1200px - 1rem - 3rem) / 4 / 2) + 5.625rem);
     }
-    .navbar.fixed-top {
-        padding-right: calc(((100vw - 1200px) / 2) + 15px + 0.75rem);
-    }
-    .navbar.fixed-top .navbar-brand {
-        left: calc(((100vw - 1450px - 0.75rem) / 2) + 0.5rem + 15px);
-    }
+
+    /* Removed section 3 */
+	
+    /* Removed section 2 */
+	
     .format-grid:not(.editing) #region-main .thegrid .grid-section {
         width: calc((100% - 3rem) / 4) !important;
     }
