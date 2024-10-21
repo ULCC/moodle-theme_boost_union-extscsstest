@@ -462,8 +462,6 @@ aside .block.block_html .card-text ul li > a:hover:last-child {
 .format-topics.editing .changenumsections a.add-sections:focus,
 .path-mod-quiz #mod_quiz_navblock .othernav .endtestlink:focus,
 .path-mod-quiz #mod_quiz_navblock .qnbutton:focus,
-.primary-navigation .navigation .navbar-nav .nav-item .nav-link:focus,
-.secondary-navigation .navigation .nav-tabs .nav-item .nav-link:focus,
 [data-region="paging-bar"]
     ul.pagination
     li.page-item:not(:disabled):not(.disabled)
@@ -474,10 +472,6 @@ aside .block.block_html .card-text ul li > a:hover:last-child {
     outline: #08f6cc solid 3px;
     outline-offset: 0;
 }
-.primary-navigation .navigation .navbar-nav .nav-item .nav-link:focus {
-    margin-left: -3px;
-    margin-right: -3px;
-}
 #page-my-index
     #page-content
     .block.block_recentlyaccessedcourses
@@ -485,7 +479,6 @@ aside .block.block_html .card-text ul li > a:hover:last-child {
     .dashboard-card
     > a:focus,
 .format-topics.editing .changenumsections a.add-sections:focus,
-.primary-navigation .navigation .navbar-nav .nav-item .nav-link:focus,
 [data-region="paging-bar"]
     ul.pagination
     li.page-item:not(:disabled):not(.disabled)
@@ -1937,7 +1930,6 @@ li.hvp .activityiconcontainer img {
 .format-topcoll .ctopics #toggle-all .content,
 .format-topcoll .ctopics.ctoggled li.section.main > .content,
 .path-mod-quiz #mod_quiz_navblock .othernav,
-.primary-navigation .navigation .navbar-nav,
 [data-region="paging-bar"] ul.pagination {
     margin: 0;
 }
@@ -2250,62 +2242,9 @@ li.hvp .activityiconcontainer img {
     margin-bottom: 0;
 }
 #usernavigation .usermenu-container #user-menu-toggle .userbutton,
-.primary-navigation .navigation .navbar-nav .nav-item.dropdown .dropdown-toggle,
 .secondary-navigation .navigation .nav-tabs .nav-item .nav-link {
     display: flex;
     align-items: center;
-}
-.primary-navigation
-    .navigation
-    .navbar-nav
-    .nav-item.dropdown
-    .dropdown-toggle:focus,
-.secondary-navigation .navigation .nav-tabs .nav-item .nav-link:focus {
-    color: #002395;
-    border: none;
-}
-.primary-navigation
-    .navigation
-    .navbar-nav
-    .nav-item.dropdown
-    .dropdown-toggle::after,
-.secondary-navigation .navigation .nav-tabs .nav-item .nav-link::after {
-    font-size: 0.75rem;
-    margin-left: 0.5rem;
-}
-.primary-navigation {
-    max-width: calc(100% - 3.75rem);
-}
-.primary-navigation .navigation {
-    height: 2.5rem;
-	/* added for new navbar design */
-	margin-left: 100px;
-}
-.primary-navigation .navigation .navbar-nav .nav-item .nav-link {
-    height: fit-content;
-    border: 0;
-}
-.primary-navigation .navigation .navbar-nav .nav-item.dropdown .dropdown-menu {
-    background-color: #f3f5f5;
-    overflow-y: visible;
-    border: 1px solid #cdd5e1;
-}
-.primary-navigation
-    .navigation
-    .navbar-nav
-    .nav-item.dropdown
-    .dropdown-menu
-    .dropdown-item {
-    padding: calc(1rem / 2) 1.5rem;
-}
-.primary-navigation
-    .navigation
-    .navbar-nav
-    .nav-item.dropdown
-    .dropdown-menu
-    .dropdown-item:hover {
-    color: inherit;
-    background: #dde5e9 !important;
 }
 #usernavigation
     .usermenu-container
@@ -2316,43 +2255,6 @@ li.hvp .activityiconcontainer img {
     .carousel-inner
     #carousel-item-main
     .dropdown-item:focus,
-.primary-navigation
-    .navigation
-    .navbar-nav
-    .nav-item.dropdown
-    .dropdown-menu
-    .dropdown-item:focus {
-    background-color: #dde5e9;
-    color: inherit;
-    border: 2px solid #000;
-    box-shadow: none;
-    outline: #08f6cc solid 3px;
-    outline-offset: 0;
-}
-.primary-navigation
-    .navigation
-    .navbar-nav
-    .nav-item.dropdown.dropdownmoremenu
-    .dropdown-menu
-    .dropdown-toggle:hover {
-    box-shadow: none;
-}
-.primary-navigation
-    .navigation
-    .navbar-nav
-    .nav-item.dropdown.dropdownmoremenu
-    .dropdown-menu
-    .dropdown-toggle:active,
-.primary-navigation
-    .navigation
-    .navbar-nav
-    .nav-item.dropdown.dropdownmoremenu
-    .dropdown-menu
-    .dropdown-toggle:focus {
-    color: #002395;
-    background: inherit;
-    box-shadow: none;
-}
 #usernavigation {
     margin: 0.5rem 0 !important;
 }
