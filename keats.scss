@@ -3594,3 +3594,8 @@ label.form-check:has(> #id_assignsubmission_mahara_enabled),
 #id_error_assignsubmission_mahara_enabled + a {
     display: none;
 }
+
+/* Page colour gradient from light grey to grey for better accessibility */
+#page {
+    background-image: linear-gradient(0deg,#a9a8a8 25%,#cfcfcf 100%);
+}
