@@ -3522,6 +3522,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     }
 	
 	
-#usernavigation .popover-region .nav-link:not(:focus){
-border: 2px solid #005ad2;
+#nav-notification-popover-container .navbar.fixed-top #usernavigation .nav-link, #popover-region-messages .navbar.fixed-top #usernavigation .nav-link {
+    border: 2px solid #005ad2;
+    border-radius: 50%;
 }
