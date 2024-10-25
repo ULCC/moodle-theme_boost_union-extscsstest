@@ -3522,12 +3522,10 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     }
 	
 	
-#usernavigation .nav-link {
-    border: 1px solid #005ad2;
-    border-radius: 50%;
-}
+
 
 /* space between icons */
 .navbar.fixed-top #usernavigation .nav-link {
-    padding: 0 0.9rem;
+    border: 1px solid #005ad2;
+    border-radius: 50%;
 }
