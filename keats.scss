@@ -3524,12 +3524,48 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 	
 	
 /* usernavigation back to circles */
-#usernavigation .usermenu-container #user-menu-toggle .userbutton .avatars {
-    background: #c83296;
-    border: 2px solid #c83296;
-    border-radius: 50%;
-}	
+#usernavigation
+    .usermenu-container
+    .usermenu
+    .dropdown
+    #user-action-menu
+    #usermenu-carousel
+    .carousel-inner
+    #carousel-item-main
+    .dropdown-item:focus,
+.primary-navigation
+    .navigation
+    .navbar-nav
+    .nav-item.dropdown
+    .dropdown-menu
+    .dropdown-item:focus {
+    background-color: #dde5e9;
+    color: inherit;
+    border: 2px solid #000;
+    box-shadow: none;
+    outline: #08f6cc solid 3px;
+    outline-offset: 0;
+}
 
+#usernavigation {
+    margin: 0.5rem 0 !important;
+}
+#usernavigation .popover-region,
+#usernavigation .simplesearchform {
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+#usernavigation .simplesearchform #searchform-navbar.show {
+    height: 100%;
+}
+#usernavigation .simplesearchform #searchform-navbar.show form {
+    display: flex !important;
+}
+#usernavigation .simplesearchform #searchform-navbar.show form .input-group {
+    padding: 0;
+    border: none;
+}
 #usernavigation
     .simplesearchform
     #searchform-navbar.show
@@ -3541,7 +3577,29 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     font-size: 1rem;
     color: #536a6e;
 }
-
+#usernavigation
+    .simplesearchform
+    #searchform-navbar.show
+    form
+    .input-group
+    .btn-close {
+    display: flex;
+    align-items: center;
+    height: 2.75rem;
+    right: 3.25rem;
+}
+#usernavigation
+    .simplesearchform
+    #searchform-navbar.show
+    form
+    .input-group
+    .input-group-append {
+    margin-left: 0.5rem;
+}
+#usernavigation .popover-region .nav-link {
+    position: unset !important;
+    display: flex;
+}
 #usernavigation .popover-region .nav-link .count-container:not(.hidden) {
     display: flex;
     justify-content: center;
@@ -3555,7 +3613,32 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     background-color: #e2231a;
     border-radius: 50%;
 }
-
+#usernavigation .popover-region .popover-region-container {
+    top: 50px;
+}
+@media screen and (max-width: 480px) {
+    #usernavigation .popover-region .popover-region-container {
+        top: 58px;
+    }
+}
+#usernavigation .usermenu-container {
+    margin-right: 0.5rem;
+}
+#page-my-index
+    #page-content
+    .block
+    .card-body
+    .card-text
+    .row
+    > :not([class^="col"]):not(:last-child),
+#usernavigation .usermenu-container #user-menu-toggle .userbutton .usertext {
+    margin-right: 0.5rem !important;
+}
+#usernavigation .usermenu-container #user-menu-toggle .userbutton .avatars {
+    background: #c83296;
+    border: 2px solid #c83296;
+    border-radius: 50%;
+}
 #usernavigation
     .usermenu-container
     #user-menu-toggle
