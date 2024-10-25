@@ -3522,19 +3522,4 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     }
 	
 	
-/* Make the bell notification icon circular */
-.usermenu .dropdown-toggle .icon {
-    width: 40px; /* Adjust width to desired size */
-    height: 40px; /* Match height to width for a perfect circle */
-    border-radius: 50%; /* Make it circular */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f0f0f0; /* Optional: Background color */
-}
 
-/* Optional: Add hover effect */
-.usermenu .dropdown-toggle .icon:hover {
-    background-color: #0073e6; /* Customize hover color */
-    color: #fff; /* Customize icon color on hover */
-}
