@@ -3525,7 +3525,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 
 #usernavigation .popover-region {
     position: relative;
-    border: 2px solid transparent; /* Keep a transparent border for consistent spacing */
+    border: 1px solid transparent; /* Keep a transparent border for consistent spacing */
     border-radius: 50%;
     transition: border-color 0.3s; /* Smooth transition for the border color */
 }
@@ -3545,7 +3545,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     right: -4px; /* Adjust this value to change the spacing of the highlight */
     bottom: -4px; /* Adjust this value to change the spacing of the highlight */
     border-radius: 50%;
-    border: 2px solid #005ad2; /* The highlight color */
+    border: 1px solid #005ad2; /* The highlight color */
     opacity: 0; /* Start as invisible */
     transition: opacity 0.3s; /* Smooth transition for visibility */
 }
