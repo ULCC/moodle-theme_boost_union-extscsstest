@@ -1021,7 +1021,6 @@ blockquote {
 #footnote .container-xl,
 #page-content .activity,
 #page-header .page-context-header,
-#usernavigation .usermenu-container #user-menu-toggle,
 .blockquote .quote-body {
     padding: 0;
 }
@@ -1101,7 +1100,6 @@ table {
 }
 #page-course-switchrole .mx-3.mb-1 > a,
 #page-course-switchrole .singlebutton button[type="submit"],
-#usernavigation .popover-region .nav-link,
 .btn,
 .btn-outline-secondary,
 .format-topcoll
@@ -1126,14 +1124,6 @@ table {
     color: #fff;
 }
 #page-course-switchrole .singlebutton button:not(:focus)[type="submit"],
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit:not(:focus),
-#usernavigation .simplesearchform .nav-link:not(:focus),
 .btn.btn-icon#back-to-top:not(:disabled):not(.disabled):not(:focus),
 .btn.btn-icon.btn-footer-popover:not(:disabled):not(.disabled):not(:focus),
 .btn:not(:disabled):not(.disabled).btn-primary:not(:focus),
@@ -1162,7 +1152,6 @@ table {
     color: #005ad2;
 }
 #page-course-switchrole .mx-3.mb-1 > a:not(:focus),
-#usernavigation .popover-region .nav-link:not(:focus),
 .btn-outline-secondary:not(:focus),
 .btn:not(:disabled):not(.disabled).btn-secondary:not(:focus),
 .drawer .drawerheader .drawertoggle:not(:focus),
@@ -1183,8 +1172,6 @@ table {
 }
 #page-course-switchrole .mx-3.mb-1 > a:active,
 #page-course-switchrole .mx-3.mb-1 > a:hover,
-#usernavigation .popover-region .nav-link:active,
-#usernavigation .popover-region .nav-link:hover,
 .btn-outline-secondary:active,
 .btn-outline-secondary:hover,
 .btn:not(:disabled):not(.disabled).btn-secondary:active,
@@ -1221,7 +1208,6 @@ table {
     color: #002395;
 }
 #page-course-switchrole .mx-3.mb-1 > a:hover,
-#usernavigation .popover-region .nav-link:hover,
 .btn-outline-secondary:hover,
 .btn:not(:disabled):not(.disabled).btn-secondary:hover,
 .drawer .drawerheader .drawertoggle:hover,
@@ -1241,7 +1227,6 @@ table {
     background-color: #c7dfff;
 }
 #page-course-switchrole .mx-3.mb-1 > a:active,
-#usernavigation .popover-region .nav-link:active,
 .btn-outline-secondary:active,
 .btn:not(:disabled):not(.disabled).btn-secondary:active,
 .drawer .drawerheader .drawertoggle:active,
@@ -1261,7 +1246,6 @@ table {
     background-color: #fff;
 }
 #page-course-switchrole .mx-3.mb-1 > a:focus,
-#usernavigation .popover-region .nav-link:focus,
 .btn-outline-secondary:focus,
 .btn:not(:disabled):not(.disabled).btn-secondary:focus,
 .drawer .drawerheader .drawertoggle:focus,
@@ -1279,10 +1263,6 @@ table {
 .format-topics.editing .changenumsections a.add-sections:focus,
 [data-region="completion-info"] button.btn-outline-secondary:focus {
     background-color: #fff !important;
-}
-#usernavigation .simplesearchform .nav-link,
-.btn.btn-icon {
-    display: flex;
 }
 .btn.btn-icon#back-to-top:not(:disabled):not(.disabled),
 .btn.btn-icon.btn-footer-popover:not(:disabled):not(.disabled) {
@@ -1315,40 +1295,22 @@ table {
     padding: 4px 16px;
 }
 #page-course-switchrole .singlebutton button:hover[type="submit"],
-#usernavigation .simplesearchform .nav-link:hover,
 .message-app .footer-container .text-center:hover,
 .path-mod-quiz #mod_quiz_navblock .othernav .endtestlink:hover {
     background-color: #002395;
     border: 2px solid #002395;
 }
 #page-course-switchrole .singlebutton button:active[type="submit"],
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit:active,
-#usernavigation .simplesearchform .nav-link:active,
 .message-app .footer-container .text-center:active,
 .path-mod-quiz #mod_quiz_navblock .othernav .endtestlink:active {
     border: 2px solid #002395;
 }
 #page-course-switchrole .singlebutton button:focus[type="submit"],
-#usernavigation
-    .simplesearchform
-    #searchform-navbar.show
-    form
-    .input-group
-    .input-group-append
-    button.btn-submit:focus,
-#usernavigation .simplesearchform .nav-link:focus,
 .message-app .footer-container .text-center:focus,
 .path-mod-quiz #mod_quiz_navblock .othernav .endtestlink:focus {
     background-color: #005ad2 !important;
 }
 #page-course-switchrole .mx-3.mb-1 > a,
-#usernavigation .popover-region .nav-link,
 .btn-outline-secondary,
 .format-topcoll
     .ctopics
@@ -1612,8 +1574,6 @@ aside .block.block_html .card-text ul li:not(:last-child) {
     div.list-group
     > .list-group-item
     .border-bottom,
-#usernavigation .divider,
-#usernavigation .usermenu-container #user-menu-toggle::after,
 .activityiconcontainer.modicon_hvp img,
 .course-content .single-section .section-navigation .jumpmenu,
 .course-content .single-section .section-navigation .nextsection a .rarrow,
@@ -2138,16 +2098,6 @@ li.hvp .activityiconcontainer img {
 @media screen and (min-width: 576px) {
     #footnote .footer-upper .footer-links.social ul a i {
         font-size: 2rem;
-    }
-    #usernavigation form {
-        display: flex !important;
-    }
-    #usernavigation form .input-group {
-        padding: 0.25rem 0 0.25rem 0.5rem;
-        border-left: 1px solid #bccbcd;
-    }
-    #usernavigation form .input-group .custom-control-label {
-        position: absolute;
     }
     .course-content .single-section .section-navigation .nextsection,
     .course-content .single-section .section-navigation .prevsection {
@@ -3035,19 +2985,7 @@ aside .block.block_html .card-text ul li {
     #footnote .footer-lower .tel {
         display: inline;
     }
-	
-    /* Logo removed section 1 */ 
-	
-	/* removed section 4 */
     
-	#usernavigation .popover-region,
-    #usernavigation .simplesearchform,
-    #usernavigation .usermenu-container {
-        margin-right: 1rem;
-    }
-    #usernavigation form .input-group {
-        padding-left: 1rem;
-    }
     .drawer-toggles .drawer-toggler {
         top: calc(110px + 0.7rem);
     }
@@ -3504,13 +3442,6 @@ aside .block.block_html .card-text ul li {
     .section-navigation.gd-selection-selector-container {
     justify-content: space-between;
 }
-#usernavigation .usermenu-container .usermenu .login .divider {
-    display: block !important;
-    height: 100% !important;
-    border-color: #bccbcd !important;
-    margin-right: 1rem !important;
-    margin-left: 1rem !important;
-}
 #region-main .que .content a,
 .embedded-main .que .content a {
     color: #005ad2;
@@ -3521,15 +3452,6 @@ aside .block.block_html .card-text ul li {
     color: #8056c1;
     font-style: normal;
     cursor: default;
-}
-#usernavigation .popover-region .nav-link:focus,
-#usernavigation .usermenu #user-menu-toggle:focus .avatar {
-    border: 2px solid #000;
-    outline: #08f6cc solid 3px;
-}
-#usernavigation .usermenu #user-menu-toggle:focus {
-    border: none;
-    outline: 0;
 }
 body.pagelayout-login {
     background-image: none !important;
