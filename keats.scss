@@ -3522,4 +3522,6 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     }
 	
 	
-
+#usernavigation .popover-region .nav-link:not(:focus){
+border: 2px solid #005ad2;
+}
