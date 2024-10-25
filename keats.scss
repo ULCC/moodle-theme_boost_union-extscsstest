@@ -3523,7 +3523,8 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 	
 /* Circles around the nav icons */
 
-#nav-notification-popover-container .navbar.fixed-top #usernavigation .nav-link {
+#usernavigation .popover-region {
+    position: relative;
     border: 1px solid #005ad2 !important;
     border-radius: 50% !important;
 }
