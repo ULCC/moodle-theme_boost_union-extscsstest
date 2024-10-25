@@ -3521,3 +3521,11 @@ label.form-check:has(> #id_assignsubmission_mahara_enabled),
 body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
         background-color: white;
     }
+	
+	
+/* usernavigation back to circles */
+#usernavigation .usermenu-container #user-menu-toggle .userbutton .avatars {
+    background: #c83296;
+    border: 2px solid #c83296;
+    border-radius: 50%;
+}	
