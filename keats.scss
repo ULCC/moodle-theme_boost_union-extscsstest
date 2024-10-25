@@ -3521,11 +3521,9 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
         background-color: white;
     }
 	
-	
+/* Circles around the nav icons */
 
-
-/* space between icons */
-.navbar.fixed-top #usernavigation .nav-link {
+#nav-notification-popover-container[data-region="popover-region-messages"] .navbar.fixed-top #usernavigation .nav-link {
     border: 1px solid #005ad2;
     border-radius: 50%;
 }
