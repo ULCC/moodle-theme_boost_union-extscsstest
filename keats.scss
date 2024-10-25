@@ -3708,3 +3708,52 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     background-color: #dde5e9;
     color: inherit;
 }
+
+#usernavigation
+    .usermenu-container
+    #user-menu-toggle
+    .userbutton
+    .avatars
+    .avatar
+    .userinitials,
+#usernavigation
+    .usermenu-container
+    #user-menu-toggle
+    .userbutton
+    .usertext
+    .role,
+.blockquote .quote-attribution,
+.blockquote .quote-attribution .author-name,
+.blockquote .quote-attribution .author-role,
+.blockquote .quote-attribution .hill,
+.blockquote .quote-attribution h4,
+.blockquote .quote-attribution h4 + h5,
+.blockquote .quote-attribution h5,
+.blockquote .quote-attribution h5 + h6,
+.blockquote .quote-attribution h6,
+.blockquote .quote-attribution p,
+.bold-p,
+.bold-small-type,
+.bungar,
+.duffy,
+.higgs,
+.hill,
+.kureishi,
+.large-p,
+.p,
+.secondary-navigation .navigation .nav-tabs .nav-item .nav-link,
+.small-type,
+.table caption,
+[data-region="completion-info"] .automatic-completion-conditions .badge,
+p,
+table caption {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #2e2e2e;
+}
+.btn .icon,
+.duffy,
+.large-p {
+    font-size: 18px;
+}
