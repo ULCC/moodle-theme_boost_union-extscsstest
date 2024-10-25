@@ -3524,20 +3524,30 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 	
 	
 /* usernavigation back to circles */
-/* Target user navigation buttons */
-.usernavigation .btn, .usermenu .dropdown-toggle, .userbutton {
-    width: 40px; /* Adjust size as needed */
+
+/* Style user navigation buttons in Boost Union theme */
+.usermenu .dropdown-toggle, 
+#nav-drawer .list-group-item, 
+#nav-drawer .icon {
+    width: 40px;  /* Adjust size as needed */
     height: 40px;
-    border-radius: 50%; /* Makes the button circular */
+    border-radius: 50%;  /* Circular shape */
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0;
-    overflow: hidden; /* Ensures content stays within the circle */
+    overflow: hidden;  /* Ensure content stays within the circle */
 }
 
-/* Optional: Add hover effect */
-.usernavigation .btn:hover, .usermenu .dropdown-toggle:hover, .userbutton:hover {
-    background-color: #0073e6; /* Adjust color to fit your theme */
-    color: #000;
+/* Optional: Hover effect for circular buttons */
+.usermenu .dropdown-toggle:hover, 
+#nav-drawer .list-group-item:hover {
+    background-color: #0073e6;  /* Customize based on theme color */
+    color: #fff;
 }
+
+/* Additional styling to remove default padding if needed */
+#nav-drawer .list-group-item {
+    padding: 0;
+}
+
