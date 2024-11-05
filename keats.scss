@@ -3520,9 +3520,8 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     position: relative;
     border: 1px solid transparent;
     border-radius: 50%;
-    width: 40px; /* Set this to the desired size */
-    height: 40px; /* Ensure width and height are equal */
-    overflow: hidden;
+    width: 40px; /* Set to desired size */
+    height: 40px; /* Equal width and height ensure a circle */
     transition: border-color 0.3s;
 }
 
@@ -3530,9 +3529,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 #usernavigation .popover-region:active,
 #usernavigation .popover-region:hover {
     border-color: #005ad2;
-    border-radius: 50%; /* Reaffirm border-radius in active states */
-    width: 40px; /* Consistency on width */
-    height: 40px; /* Consistency on height */
+    border-radius: 50%; /* Reinforce circle shape */
 }
 
 #usernavigation .popover-region:focus::after,
