@@ -3529,7 +3529,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     border-radius: 50%;
     width: 40px; /* Set this to the desired size */
     height: 40px; /* Ensure width and height are equal */
-    overflow: hidden;
+    /*overflow: hidden;*/
     transition: border-color 0.3s;
 }
 
