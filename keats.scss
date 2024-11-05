@@ -3497,6 +3497,10 @@ body {
     font-size: 15px;
 }
 
+#page-wrapper .input-group-append {
+    font-size: 15px;
+}
+
 /* Hide Mahara submission in Assignment */
 label.form-check:has(> #id_assignsubmission_mahara_enabled),
 #id_error_assignsubmission_mahara_enabled + a {
