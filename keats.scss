@@ -3537,3 +3537,8 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 #usernavigation .popover-region:hover::after {
     opacity: 1;
 }
+
+/* move the notification box back to the button */
+.navbar .popover-region-container {
+    top: unset;
+}
