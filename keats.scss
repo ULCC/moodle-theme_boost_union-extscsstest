@@ -3523,6 +3523,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     width: 40px; /* Set to desired size */
     height: 40px; /* Equal width and height ensure a circle */
     transition: border-color 0.3s;
+	outline: none;
 }
 
 #usernavigation .popover-region:focus,
@@ -3530,12 +3531,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 #usernavigation .popover-region:hover {
     border-color: #005ad2;
     border-radius: 50%; /* Reinforce circle shape */
-}
-
-#usernavigation .popover-region:focus::after,
-#usernavigation .popover-region:active::after,
-#usernavigation .popover-region:hover::after {
-    opacity: 1;
+	outline: none;
 }
 
 /* move the notification box back to the button */
