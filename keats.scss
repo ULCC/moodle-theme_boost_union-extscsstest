@@ -3536,20 +3536,6 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     border-color: #005ad2; /* Change border color when focused, active, or hovered */
 }
 
-/* Optional: Pseudo-element for a glowing effect */
-#usernavigation .popover-region::after {
-    content: '';
-    position: absolute;
-    top: -4px; /* Adjust this value to change the spacing of the highlight */
-    left: -4px; /* Adjust this value to change the spacing of the highlight */
-    right: -4px; /* Adjust this value to change the spacing of the highlight */
-    bottom: -4px; /* Adjust this value to change the spacing of the highlight */
-    border-radius: 50%;
-    border: 1px solid #005ad2; /* The highlight color */
-    opacity: 0; /* Start as invisible */
-    transition: opacity 0.3s; /* Smooth transition for visibility */
-}
-
 #usernavigation .popover-region:focus::after,
 #usernavigation .popover-region:active::after,
 #usernavigation .popover-region:hover::after {
