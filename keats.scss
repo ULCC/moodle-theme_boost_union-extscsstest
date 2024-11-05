@@ -3534,6 +3534,20 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 	outline: none;
 }
 
+#usernavigation .popover-region:focus::before,
+#usernavigation .popover-region:active::before,
+#usernavigation .popover-region:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Force circle shape on pseudo-element */
+    border: 1px solid #005ad2; /* Add outline effect */
+    pointer-events: none; /* Allow clicks to pass through */
+}
+
 /* move the notification box back to the button */
 .navbar .popover-region-container {
     top: unset;
