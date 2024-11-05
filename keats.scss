@@ -2985,13 +2985,6 @@ aside .block.block_html .card-text ul li {
         display: inline;
     }
     
-    .drawer-toggles .drawer-toggler {
-        top: calc(110px + 0.7rem);
-    }
-    .drawer[data-origin^="message-drawer"] {
-        top: 6.5rem;
-        height: calc(100vh - 6.5rem);
-    }
     #page-my-index
         #page-content
         .block.block_myoverview
