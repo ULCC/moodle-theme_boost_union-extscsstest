@@ -3556,3 +3556,13 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 .navbar .popover-region-container {
     top: unset;
 }
+
+/* Unlock logo, so it appears outside of the navbar */
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    top: 20px;
+	z-index: 10;
+    width: 130px;
+    height: 100px;
+}
