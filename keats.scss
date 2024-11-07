@@ -3558,21 +3558,23 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 }
 
 /* Unlock logo, so it appears outside of the navbar */
-.navbar-light .navbar-brand {
-    color: rgba(0, 0, 0, 0.9);
-    position: relative;
-    top: 20px;
-	z-index: 10;
-    width: 130px;
-    height: 100px;
-}
+@media (min-width: 768px) {
+	.navbar-light .navbar-brand {
+		color: rgba(0, 0, 0, 0.9);
+		position: relative;
+		top: 20px;
+		z-index: 10;
+		width: 130px;
+		height: 100px;
+	}
 
 /* unset the size of the logo */
-.navbar.fixed-top .navbar-brand .logo {
-    max-height: unset!important;
-}
+	.navbar.fixed-top .navbar-brand .logo {
+		max-height: unset!important;
+	}
 
 /* move open close bars down */
-.drawer-toggles .drawer-toggler {
-    top: calc(100px + 0.7rem);
+	.drawer-toggles .drawer-toggler {
+		top: calc(100px + 0.7rem);
+	}
 }
