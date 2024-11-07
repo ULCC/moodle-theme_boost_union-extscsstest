@@ -3566,3 +3566,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     width: 130px;
     height: 100px;
 }
+
+.navbar.fixed-top .navbar-brand .logo {
+    max-height: unset;
+}
