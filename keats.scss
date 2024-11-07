@@ -3567,6 +3567,12 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     height: 100px;
 }
 
+/* unset the size of the logo */
 .navbar.fixed-top .navbar-brand .logo {
     max-height: unset!important;
+}
+
+/* move open close bars down */
+.drawer-toggles .drawer-toggler {
+    top: calc(100px + 0.7rem);
 }
