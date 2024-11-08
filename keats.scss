@@ -540,27 +540,61 @@ h3 strong,
 h4 strong {
     font-weight: 400 !important;
 }
+
+/* Change Base font sizes for larger screens */
 .clarke,
 .h1,
 h1 {
     font-size: 32px;
 }
+
 .de-botton,
 .h2,
 h2 {
     font-size: 28px;
 }
+
 #page-my-index #page-content .block .card-body .card-title,
 .h3,
 .jarman,
 h3 {
     font-size: 26px;
 }
+
 .h4,
 .okereke,
 h4 {
     font-size: 24px;
 }
+
+/* Adjust base font sizes for mobile devices */
+@media (max-width: 768px) {
+    .clarke,
+    .h1,
+    h1 {
+        font-size: 28px; /* Decrease font size for h1 elements on mobile */
+    }
+
+    .de-botton,
+    .h2,
+    h2 {
+        font-size: 24px; /* Decrease font size for h2 elements on mobile */
+    }
+
+    #page-my-index #page-content .block .card-body .card-title,
+    .h3,
+    .jarman,
+    h3 {
+        font-size: 22px; /* Decrease font size for h3 elements on mobile */
+    }
+
+    .h4,
+    .okereke,
+    h4 {
+        font-size: 20px; /* Decrease font size for h4 elements on mobile */
+    }
+}
+
 #accordion .card .card-header h4,
 #accordion .card .card-header h5,
 #accordion .card .card-header h6,
