@@ -1,3 +1,4 @@
+/* Define custom font faces */
 @font-face {
     font-family: "Wix Madefor Display";
     src: url('/pluginfile.php/1/theme_boost_union/customfonts/0/WixMadeforDisplay-VariableFont_wght.ttf')
@@ -5,6 +6,7 @@
     font-weight: 400;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Open Sans";
     src: url('/pluginfile.php/1/theme_boost_union/customfonts/0/OpenSans-Regular.woff')
@@ -12,6 +14,27 @@
     font-weight: 400;
     font-style: normal;
 }
+
+/* Base font styles */
+body {
+    font-family: "Wix Madefor Display", "Open Sans", sans-serif;
+    font-size: 16px; /* Adjust base size as needed */
+}
+
+/* Smaller font size for mobile devices */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reduce font size for mobile */
+    }
+    
+    /* Optional: Further reduce the font size for very small screens */
+    @media (max-width: 480px) {
+        body {
+            font-size: 13px;
+        }
+    }
+}
+
 #accordion .card .card-header h4,
 #accordion .card .card-header h5,
 #accordion .card .card-header h6,
@@ -3582,5 +3605,4 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 /* make all admin pages appear full screen width */
 [id^="page-admin"] .main-inner {
     max-width: 100% !important;
-    width: 100% !important;
 }
