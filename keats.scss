@@ -3636,7 +3636,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 	}
 }
 
-/* make all admin pages appear full screen width */
-[id^="page-admin"] .main-inner {
+/* make all admin and grade pages appear full screen width */
+[id^="page-admin"] .main-inner, [id^="page-grade"] .main-inner {
     max-width: 100% !important;
 }
