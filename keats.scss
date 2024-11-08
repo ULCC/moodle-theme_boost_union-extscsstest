@@ -3578,3 +3578,9 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 		top: calc(100px + 0.7rem);
 	}
 }
+
+/* make all admin pages appear full screen width */
+[id^="page-admin"] .main-inner {
+    max-width: 100% !important;
+    width: 100% !important;
+}
