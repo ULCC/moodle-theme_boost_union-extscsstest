@@ -3640,3 +3640,8 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 [id^="page-admin"] .main-inner, [id^="page-grade"] .main-inner {
     max-width: 100% !important;
 }
+
+/* move the course index draw down slightly, otherwise the close button appears under the KCL logo */
+[id^="page-grade"] .drawer .drawerheader {
+    margin: 2.30rem 0.5rem;
+}
