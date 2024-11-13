@@ -3609,6 +3609,11 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     pointer-events: none; /* Allow clicks to pass through */
 }
 
+#usernavigation .popover-region .nav-link:focus, #usernavigation .usermenu #user-menu-toggle:focus .avatar {
+    border: 2px solid #000;
+    outline: #08f6cc solid 3px;
+}
+
 /* move the notification box back to the button */
 .navbar .popover-region-container {
     top: unset;
