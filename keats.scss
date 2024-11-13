@@ -3612,6 +3612,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 #usernavigation .popover-region .nav-link:focus, #usernavigation .usermenu #user-menu-toggle:focus .avatar {
     border: 2px solid #000;
     outline: #08f6cc solid 3px;
+	border-radius: 50%;
 }
 
 /* move the notification box back to the button */
