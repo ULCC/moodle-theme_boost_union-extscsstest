@@ -149,3 +149,74 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 [id^="page-admin"] .row {
     background-color: #FFFFFF;
 }
+
+#footnote .footer-upper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 0.5rem;
+    border-top: 1px solid #8295b5;
+}
+
+#footnote {
+        margin-left: -3rem !important;
+        margin-right: -3rem !important;
+}
+#footnote .footer-upper {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3rem calc(3.5rem + 15px) 2rem;
+}
+
+@media screen and (min-width: 1200px) {
+    #footnote {
+        padding: 0 3rem;
+        border-top: 1px solid #8295b5 !important;
+    }
+    #footnote .footer-upper {
+        max-width: calc(1200px + 7rem);
+        margin: 0 auto;
+        padding: 3rem calc(3.5rem + 15px) 2rem;
+        border-top: none;
+    }
+}
+@media screen and (min-width: 1400px) {
+    #footnote .footer-upper {
+        max-width: calc(1200px + 7rem);
+        padding: 3rem calc(4rem + 15px) 2rem;
+    }
+}
+#footnote .footer-upper .footer-logo img {
+    width: 132px;
+}
+#footnote .footer-upper .footer-links ul {
+    margin: 0 0 1.5rem;
+    padding: 0;
+    list-style: none;
+}
+#footnote .footer-upper .footer-links.social ul {
+    display: flex;
+    gap: 1.5rem;
+}
+#footnote .footer-upper .footer-links.social ul a {
+    position: relative;
+    display: flex;
+    color: #005ad2;
+}
+#footnote .footer-upper .footer-links.social ul a:hover {
+    text-decoration: none;
+    color: #002395;
+}
+#footnote .footer-upper .footer-links.social ul a i {
+    font-size: 2.25rem;
+}
+#footnote .footer-lower {
+    display: block;
+    border-top: 1px solid #bccbcd;
+    padding: 1.5rem 0.5rem 3rem;
+    text-align: center;
+}
+#footnote .footer-lower .tel {
+    display: block;
+    margin-top: 1rem;
+}
