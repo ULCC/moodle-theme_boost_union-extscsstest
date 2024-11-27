@@ -232,7 +232,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 }
 
 /* Move the course index close away from under the dropped logo */
-.drawer.drawer-left .drawertoggle {
-    margin-right: auto;
-    margin-left: 190px;
+
+[id^="page-course"] .drawer.drawer-left .drawertoggle {
+    margin-left: 190px!important;
 }
