@@ -150,6 +150,8 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     background-color: #FFFFFF;
 }
 
+/* Start of Footer changes */
+
 #footnote .footer-upper {
     display: flex;
     flex-direction: column;
@@ -219,4 +221,12 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 #footnote .footer-lower .tel {
     display: block;
     margin-top: 1rem;
+}
+
+/* End of Footer changes */
+
+/* Change back to top, Help and sidebar popout colours */
+#back-to-top, .drawer-toggles .drawer-right-toggle .btn, .btn.btn-icon {
+    color: white!important;
+    background-color: #005AD2 !important;
 }
