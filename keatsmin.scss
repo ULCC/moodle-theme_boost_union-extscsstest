@@ -146,7 +146,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 }
 
 /* make all admin pages rows white */
-[id^="page-admin"] .row {
+[id^="page-admin"] .row, [id^="page-my"] .row {
     background-color: #FFFFFF;
 }
 
