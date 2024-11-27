@@ -144,3 +144,8 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 [id^="page-grade"] .drawer .drawerheader {
     margin: 2.5rem 0.5rem;
 }
+
+/* make all admin pages rows white */
+[id^="page-admin"] .row {
+    background-color: #FFFFFF;
+}
