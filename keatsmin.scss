@@ -236,3 +236,13 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 [id^="page-course"] .drawer.drawer-left .drawertoggle {
     margin-left: 190px!important;
 }
+
+/* Remove the padding at the top of a modal dialog box */
+.modal-dialog, .modal-dialog .modal-dialog-scrollable {
+    padding-top: unset!important;
+ }
+
+/* reset the top on some modal boxes */
+.box .modal-content {
+    margin-top: 15px;
+}
