@@ -108,33 +108,38 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 }
 
 /* Unlock logo, so it appears outside of the navbar on non-mobile devices */
+/* Unlock logo, so it appears outside of the navbar on non-mobile devices */
 @media (min-width: 768px) {
 	.navbar-light .navbar-brand {
 		color: rgba(0, 0, 0, 0.9);
 		position: relative;
 		top: 20px;
 		z-index: 10;
-		width: 130px; /* Keeps logo container size fixed */
-		height: 100px; /* Keeps logo container size fixed */
+		width: 152px; /* Container width (132px logo + 10px padding on each side) */
+		height: 120px; /* Container height (100px logo + 10px padding on each side) */
 		border-left: 4px solid white; /* White border on the left */
 		border-bottom: 4px solid white; /* White border on the bottom */
 		border-right: 4px solid white; /* White border on the right */
 		border-radius: 0 0 10px 10px; /* Rounded corners on the border only */
 		background-color: white; /* Optional: Background color for contrast */
-		padding: 10px; /* Adds 10px space around the logo */
-		box-sizing: border-box; /* Ensures padding and borders don't affect dimensions */
-		display: flex; /* Centers the logo */
-		align-items: center; /* Vertically centers the logo */
-		justify-content: center; /* Horizontally centers the logo */
+		padding: 10px; /* Space around the logo inside the container */
+		box-sizing: border-box; /* Ensures padding and borders are within total dimensions */
+		box-shadow: 0 0 2px #ccc; /* Thin shadow for a subtle outline */
 	}
 
-	/* Ensure the logo itself stays unaffected */
 	.navbar-light .navbar-brand .logo {
-		max-height: 100%; /* Ensures the logo fits within its container */
-		max-width: 100%; /* Prevents stretching */
+		width: 132px; /* Logo width */
+		height: 100px; /* Logo height */
+		object-fit: contain; /* Ensures the logo scales properly without distortion */
 		border-radius: 0; /* Ensures no rounding on the logo itself */
 	}
+
+	/* move open-close bars down slightly on non-mobile devices */
+	.drawer-toggles .drawer-toggler {
+		top: calc(120px + 0.7rem); /* Adjusted to match the increased container height */
+	}
 }
+
 
 /* make all admin and grade pages appear full screen width */
 [id^="page-admin"] .main-inner, [id^="page-grade"] .main-inner {
