@@ -116,6 +116,11 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 		z-index: 10;
 		width: 130px;
 		height: 100px;
+		border: 4px solid white; /* White border */
+		border-radius: 10px; /* Rounded corners */
+		background-color: white; /* Optional: add background color to make the logo stand out */
+		padding: 5px; /* Optional: space between logo and border */
+		box-sizing: border-box; /* Ensures padding and border are within the defined width/height */
 	}
 
 /* unset the size of the logo on non-mobile devices */
