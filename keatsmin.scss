@@ -114,8 +114,8 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 		position: relative;
 		top: 20px;
 		z-index: 10;
-		width: 150px; /* Adjusted width to account for padding */
-		height: 120px; /* Adjusted height to account for padding */
+		width: 130px; /* Original logo width */
+		height: 100px; /* Original logo height */
 		border-left: 4px solid white; /* White border on the left */
 		border-bottom: 4px solid white; /* White border on the bottom */
 		border-right: 4px solid white; /* White border on the right */
@@ -124,16 +124,18 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 		padding: 10px; /* Space around the logo */
 		box-sizing: border-box; /* Ensures padding and borders are included within the total width/height */
 		box-shadow: 0 0 2px #ccc; /* Thin shadow to add a subtle line */
+		overflow: hidden; /* Ensures the logo doesn't overflow the container */
 	}
 
 /* unset the size of the logo on non-mobile devices */
 	.navbar.fixed-top .navbar-brand .logo {
-		max-height: unset!important;
+		max-height: 100%; /* Ensures the logo remains properly contained */
+		width: 100%; /* Ensures the logo adjusts to fit within the container */
 	}
 
 /* move open close bars down slightly on non-mobile devices */
 	.drawer-toggles .drawer-toggler {
-		top: calc(100px + 0.7rem);
+		top: calc(120px + 0.7rem); /* Adjusted to account for padding and border */
 	}
 }
 
