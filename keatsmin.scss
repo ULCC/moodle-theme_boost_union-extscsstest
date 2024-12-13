@@ -128,15 +128,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 		max-height: unset!important;
 	}
 
-.navbar-light .navbar-brand .logo {
-		width: 132px; /* Logo width */
-		height: 100px; /* Logo height */
-		object-fit: contain; /* Ensures the logo scales properly without distortion */
-		border-radius: 0; /* Ensures no rounding on the logo itself */
-	}
-
 .navbar.fixed-top .navbar-brand .logo {
-    max-height: unset;
     margin-left: 6px;
 }	
 
