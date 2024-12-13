@@ -114,15 +114,15 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 		position: relative;
 		top: 20px;
 		z-index: 10;
-		width: 130px;
-		height: 100px;
+		width: 150px; /* Adjusted width to account for padding */
+		height: 120px; /* Adjusted height to account for padding */
 		border-left: 4px solid white; /* White border on the left */
 		border-bottom: 4px solid white; /* White border on the bottom */
 		border-right: 4px solid white; /* White border on the right */
 		border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
 		background-color: white; /* Optional: Background color for better contrast */
-		padding: 5px; /* Space between the logo and the border */
-		box-sizing: border-box; /* Ensures padding and borders don't affect the dimensions */
+		padding: 10px; /* Space around the logo */
+		box-sizing: border-box; /* Ensures padding and borders are included within the total width/height */
 		box-shadow: 0 0 2px #ccc; /* Thin shadow to add a subtle line */
 	}
 
