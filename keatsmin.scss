@@ -120,8 +120,8 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 		border-bottom: 8px solid white;
 		border-right: 8px solid white; 
 		border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
-		background-color: white; /* Optional: Background color for better contrast */
-		padding: 5px; /* Space between the logo and the border */
+		background-color: white;
+		/*padding: 5px;*/ /* Space between the logo and the border */
 		box-sizing: border-box; /* Ensures padding and borders don't affect the dimensions */
 	}
 
