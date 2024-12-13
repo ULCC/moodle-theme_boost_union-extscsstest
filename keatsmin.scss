@@ -108,37 +108,38 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 }
 
 /* Unlock logo, so it appears outside of the navbar on non-mobile devices */
-/* Unlock logo, so it appears outside of the navbar on non-mobile devices */
 @media (min-width: 768px) {
 	.navbar-light .navbar-brand {
 		color: rgba(0, 0, 0, 0.9);
 		position: relative;
 		top: 20px;
 		z-index: 10;
-		width: 152px; /* Container width (132px logo + 10px padding on each side) */
-		height: 120px; /* Container height (100px logo + 10px padding on each side) */
-		border-left: 4px solid white; /* White border on the left */
-		border-bottom: 4px solid white; /* White border on the bottom */
-		border-right: 4px solid white; /* White border on the right */
-		border-radius: 0 0 10px 10px; /* Rounded corners on the border only */
-		background-color: white; /* Optional: Background color for contrast */
-		padding: 10px; /* Space around the logo inside the container */
-		box-sizing: border-box; /* Ensures padding and borders are within total dimensions */
+		width: 130px;
+		height: 100px;
+		border-left: 4px solid white;
+        border-bottom: 4px solid white;
+        border-right: 4px solid white;
+        border-radius: 0 0 10px 10px;
+        background-color: white;
 	}
 
-	.navbar-light .navbar-brand .logo {
+/* unset the size of the logo on non-mobile devices */
+	.navbar.fixed-top .navbar-brand .logo {
+		max-height: unset!important;
+	}
+
+.navbar-light .navbar-brand .logo {
 		width: 132px; /* Logo width */
 		height: 100px; /* Logo height */
 		object-fit: contain; /* Ensures the logo scales properly without distortion */
 		border-radius: 0; /* Ensures no rounding on the logo itself */
-	}
+	}	
 
-	/* move open-close bars down slightly on non-mobile devices */
+/* move open close bars down slightly on non-mobile devices */
 	.drawer-toggles .drawer-toggler {
-		top: calc(120px + 0.7rem); /* Adjusted to match the increased container height */
+		top: calc(100px + 0.7rem);
 	}
 }
-
 
 /* make all admin and grade pages appear full screen width */
 [id^="page-admin"] .main-inner, [id^="page-grade"] .main-inner {
