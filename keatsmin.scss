@@ -256,13 +256,16 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 @media (min-width: 768px) {
 
     .navbar.fixed-top .navbar-brand .logo {
-        margin-left: 9px;
+        position: fixed;
+		top: 0px;    
+		margin-left: 9px;
 		margin-bottom: 4px;
     }
 	.navbar-light .navbar-brand {
 		border-left: 1px solid #ccc;
 		border-bottom: 1px solid #ccc;
 		border-right: 1px solid #ccc;
-		top: 22px;
+		top: 55px;
+		height: 85%;
 	}
 }
