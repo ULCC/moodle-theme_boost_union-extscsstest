@@ -253,7 +253,8 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 }
 
 /* Styling of the KCL logo within the dropped down area */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) { */
+
     .navbar.fixed-top .navbar-brand .logo {
         margin-left: 9px;
 		margin-bottom: 4px;
@@ -264,4 +265,4 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 		border-right: 1px solid #ccc;
 		top: 22px;
 	}
-}
+/* } */
