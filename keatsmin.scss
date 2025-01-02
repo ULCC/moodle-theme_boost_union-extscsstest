@@ -257,4 +257,9 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     .navbar.fixed-top .navbar-brand .logo {
         margin-left: 9px;
     }
+	.navbar-light .navbar-brand {
+		border-left: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+	}
 }
