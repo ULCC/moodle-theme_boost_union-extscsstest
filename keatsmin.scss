@@ -251,3 +251,10 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 .box .modal-content {
     margin-top: 15px;
 }
+
+/* Move logo to the left to be centered in the dropdown section */
+@media (min-width: 768px) {
+    .navbar.fixed-top .navbar-brand .logo {
+        margin-left: 9px;
+    }
+}
