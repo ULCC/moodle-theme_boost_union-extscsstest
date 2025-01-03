@@ -112,13 +112,9 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 	.navbar-light .navbar-brand {
 		color: rgba(0, 0, 0, 0.9);
 		position: relative;
-		top: 20px;
 		z-index: 10;
 		width: 152px;
 		height: 115px;
-		border-left: 4px solid white;
-        border-bottom: 4px solid white;
-        border-right: 4px solid white;
         border-radius: 0 0 10px 10px;
         background-color: white;
 	}
