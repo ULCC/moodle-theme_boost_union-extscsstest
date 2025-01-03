@@ -131,7 +131,25 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 .navbar.fixed-top .navbar-brand .logo {
         width: 132px;
         height: 100px;
-}	
+}
+
+/* Styling of the KCL logo within the dropped down area */
+@media (min-width: 768px) {
+
+    .navbar.fixed-top .navbar-brand .logo {
+        position: fixed;
+		top: 0px;    
+		margin-left: 9px;
+		margin-bottom: 4px;
+    }
+	.navbar-light .navbar-brand {
+		border-left: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		top: 55px;
+		height: 85%;
+	}
+}
 
 /* move open close bars down slightly on non-mobile devices */
 	.drawer-toggles .drawer-toggler {
@@ -236,7 +254,6 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 }
 
 /* Move the course index close away from under the dropped logo */
-
 [id^="page-course"] .drawer.drawer-left .drawertoggle {
     margin-left: 190px!important;
 }
@@ -249,24 +266,6 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 /* reset the top on some modal boxes */
 .box .modal-content {
     margin-top: 15px;
-}
-
-/* Styling of the KCL logo within the dropped down area */
-@media (min-width: 768px) {
-
-    .navbar.fixed-top .navbar-brand .logo {
-        position: fixed;
-		top: 0px;    
-		margin-left: 9px;
-		margin-bottom: 4px;
-    }
-	.navbar-light .navbar-brand {
-		border-left: 1px solid #ccc;
-		border-bottom: 1px solid #ccc;
-		border-right: 1px solid #ccc;
-		top: 55px;
-		height: 85%;
-	}
 }
 
 /* Adjust the labels like 'Add method' dropdown in Enrolment methods page & labels on Permissions page */
