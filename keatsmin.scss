@@ -269,3 +269,9 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 		height: 85%;
 	}
 }
+
+/* Adjust the enrolment dropdown */
+#page-enrol-instances .urlselect {
+    padding-right: 10px;
+	margin-bottom: unset;
+}	
