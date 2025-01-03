@@ -270,8 +270,8 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 	}
 }
 
-/* Adjust the 'Add method' dropdown in Enrolment methods page */
-#page-enrol-instances label {
+/* Adjust the labels like 'Add method' dropdown in Enrolment methods page & labels on Permissions page */
+#page-enrol-instances label, #page-admin-roles-permissions label {
     padding-right: 10px;
 	margin-bottom: unset;
 }	
