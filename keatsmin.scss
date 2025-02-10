@@ -172,6 +172,11 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     background-color: #FFFFFF;
 }
 
+/* make report pages rows back to original setting */
+[id^="page-blocks-reportsdash-report"] .row {
+    background-color: unset;
+}
+
 /* Start of Footer changes */
 
 #footnote .footer-upper {
