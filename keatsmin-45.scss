@@ -1,0 +1,280 @@
+/* Define custom font faces */
+@font-face {
+    font-family: "Wix Madefor Display";
+    src: url('/pluginfile.php/1/theme_boost_union/customfonts/0/WixMadeforDisplay-VariableFont_wght.ttf')
+        format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('/pluginfile.php/1/theme_boost_union/customfonts/0/OpenSans-Regular.woff')
+        format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Base font styles */
+body {
+    font-family: "Wix Madefor Display", "Open Sans", sans-serif;
+    font-size: 16px; /* Adjust base size as needed */
+}
+
+/* Smaller font size for mobile devices */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reduce font size for mobile */
+    }
+    
+    /* Optional: Further reduce the font size for very small screens */
+    @media (max-width: 480px) {
+        body {
+            font-size: 13px;
+        }
+    }
+}
+
+/* Fix for the search button in Site Admin */
+#page-wrapper .btn-primary.search-icon {
+    border: 0px solid transparent;
+    font-size: 16px;
+}
+
+/* Fix for the search button in Course pages */
+#page-wrapper .btn-submit.search-icon {
+    border: 1px solid #8f959e;
+    font-size: 15px;
+}
+
+.simplesearchform .btn-submit {
+    font-size: 15px;
+}
+
+/* Hide Mahara submission in Assignment */
+label.form-check:has(> #id_assignsubmission_mahara_enabled),
+#id_error_assignsubmission_mahara_enabled + a {
+    display: none;
+}
+
+/* Page colour gradient from light grey to grey for better accessibility */
+#page {
+    background-image: linear-gradient(0deg,#a9a8a8 25%,#cfcfcf 100%);
+}
+
+/* Change the background colour of the Footer to White */
+
+body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
+        background-color: white;
+    }
+	
+/* Circles around the nav icons */
+
+#usernavigation .popover-region {
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 40px; /* Set to desired size */
+    height: 40px; /* Equal width and height ensure a circle */
+    transition: border-color 0.3s;
+	outline: none;
+}
+
+#usernavigation .popover-region:focus,
+#usernavigation .popover-region:active,
+#usernavigation .popover-region:hover {
+    border-color: #005ad2;
+    border-radius: 50%; /* Reinforce circle shape */
+	outline: none;
+}
+
+#usernavigation .popover-region:focus::before,
+#usernavigation .popover-region:active::before,
+#usernavigation .popover-region:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Force circle shape on pseudo-element */
+    border: 1px solid #005ad2; /* Add outline effect */
+    pointer-events: none; /* Allow clicks to pass through */
+}
+
+/* move the notification box back to the button */
+.navbar .popover-region-container {
+    top: unset;
+}
+
+/* Unlock logo, so it appears outside of the navbar on non-mobile devices */
+@media (min-width: 768px) {
+	.navbar-light .navbar-brand {
+		color: rgba(0, 0, 0, 0.9);
+		position: relative;
+		top: 20px;
+		z-index: 10;
+		width: 152px;
+		height: 115px;
+		border-left: 4px solid white;
+        border-bottom: 4px solid white;
+        border-right: 4px solid white;
+        border-radius: 0 0 10px 10px;
+        background-color: white;
+	}
+
+/* unset the size of the logo on non-mobile devices */
+	.navbar.fixed-top .navbar-brand .logo {
+		max-height: unset!important;
+	}
+
+.navbar.fixed-top .navbar-brand .logo {
+        width: 132px;
+        height: 100px;
+}
+
+/* Styling of the KCL logo within the dropped down area */
+@media (min-width: 768px) {
+
+    .navbar.fixed-top .navbar-brand .logo {
+        position: fixed;
+		top: 0px;    
+		margin-left: 9px;
+		margin-bottom: 4px;
+    }
+	.navbar-light .navbar-brand {
+		border-left: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		top: 55px;
+		height: 85%;
+	}
+}
+
+/* move open close bars down slightly on non-mobile devices */
+	.drawer-toggles .drawer-toggler {
+		top: calc(100px + 0.7rem);
+	}
+}
+
+/* make all admin and grade pages appear full screen width */
+[id^="page-admin"] .main-inner, [id^="page-grade"] .main-inner {
+    max-width: 100% !important;
+}
+
+/* move the course index draw down slightly, otherwise the close button appears under the KCL logo */
+[id^="page-grade"] .drawer .drawerheader {
+    margin: 2.5rem 0.5rem;
+}
+
+/* make all admin pages rows white */
+[id^="page"] .row {
+    background-color: #FFFFFF;
+}
+
+/* make report pages rows back to original setting */
+[id^="page-blocks-reportsdash-report"] .row {
+    background-color: unset;
+}
+
+/* Start of Footer changes */
+
+#footnote .footer-upper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 0.5rem;
+    border-top: 1px solid #8295b5;
+}
+
+#footnote {
+        margin-left: -3rem !important;
+        margin-right: -3rem !important;
+}
+#footnote .footer-upper {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3rem calc(3.5rem + 15px) 2rem;
+}
+
+@media screen and (min-width: 1200px) {
+    #footnote {
+        padding: 0 3rem;
+        border-top: 1px solid #8295b5 !important;
+    }
+    #footnote .footer-upper {
+        max-width: calc(1200px + 7rem);
+        margin: 0 auto;
+        padding: 3rem calc(3.5rem + 15px) 2rem;
+        border-top: none;
+    }
+}
+@media screen and (min-width: 1400px) {
+    #footnote .footer-upper {
+        max-width: calc(1200px + 7rem);
+        padding: 3rem calc(4rem + 15px) 2rem;
+    }
+}
+#footnote .footer-upper .footer-logo img {
+    width: 132px;
+}
+#footnote .footer-upper .footer-links ul {
+    margin: 0 0 1.5rem;
+    padding: 0;
+    list-style: none;
+}
+#footnote .footer-upper .footer-links.social ul {
+    display: flex;
+    gap: 1.5rem;
+}
+#footnote .footer-upper .footer-links.social ul a {
+    position: relative;
+    display: flex;
+    color: #005ad2;
+}
+#footnote .footer-upper .footer-links.social ul a:hover {
+    text-decoration: none;
+    color: #002395;
+}
+#footnote .footer-upper .footer-links.social ul a i {
+    font-size: 2.25rem;
+}
+#footnote .footer-lower {
+    display: block;
+    border-top: 1px solid #bccbcd;
+    padding: 1.5rem 0.5rem 3rem;
+    text-align: center;
+}
+#footnote .footer-lower .tel {
+    display: block;
+    margin-top: 1rem;
+}
+
+/* End of Footer changes */
+
+/* Change back to top, Help and sidebar popout colours */
+#back-to-top, .drawer-toggles .drawer-right-toggle .btn, .drawer-toggles .drawer-left-toggle .btn, .drawer-toggles .drawer-toggler .btn:focus, .btn.btn-icon.bg-secondary.icon-no-margin.btn-footer-popover {
+    color: white!important;
+    background-color: #005AD2 !important;
+}
+
+/* Move the course index close away from under the dropped logo */
+[id^="page-course"] .drawer.drawer-left .drawertoggle {
+    margin-left: 190px!important;
+}
+
+/* Remove the padding at the top of a modal dialog box */
+.modal-dialog, .modal-dialog .modal-dialog-scrollable {
+    padding-top: unset!important;
+ }
+
+/* reset the top on some modal boxes */
+.box .modal-content {
+    margin-top: 15px;
+}
+
+/* Adjust the labels like 'Add method' dropdown in Enrolment methods page & labels on Permissions page */
+#page-enrol-instances label, #page-admin-roles-permissions label {
+    padding-right: 10px;
+	margin-bottom: unset;
+}	
