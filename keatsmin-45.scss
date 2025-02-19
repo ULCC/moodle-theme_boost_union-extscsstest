@@ -112,6 +112,11 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 
 /* Start of Footer changes */
 
+#footnote {
+        margin-left: -3rem !important;
+        margin-right: -3rem !important;
+}
+
 @media (min-width: 768px) {
 #footnote .footer-upper {
     display: flex;
@@ -119,10 +124,6 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     gap: 2rem;
     padding: 3rem 0.5rem;
     border-top: 1px solid #8295b5;
-}
-#footnote {
-        margin-left: -3rem !important;
-        margin-right: -3rem !important;
 }
 #footnote .footer-upper {
         flex-direction: row;
