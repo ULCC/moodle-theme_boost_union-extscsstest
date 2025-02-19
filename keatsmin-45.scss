@@ -112,6 +112,13 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 
 /* Start of Footer changes */
 
+@media (max-width: 767px) {
+    .footer-logo img {
+        width: 100px;
+        height: auto;
+    }
+}
+
 @media (min-width: 768px) {
 #footnote {
         margin-left: -3rem !important;
