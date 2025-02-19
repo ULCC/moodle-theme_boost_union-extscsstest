@@ -53,9 +53,14 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 
 /* Size of  the logo */
 .navbar.fixed-top .navbar-brand .logo {
-        width: 80px;
+        width: 48px;
         height: auto;
 	max-height: unset !important;
+}
+
+/* Size of the navbar (originally 61px) */
+.navbar.fixed-top {
+    height: 48px;
 }
 
 /* make all admin and grade pages appear full screen width */
