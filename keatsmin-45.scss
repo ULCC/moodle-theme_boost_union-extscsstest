@@ -169,11 +169,6 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     background-color: #005AD2 !important;
 }
 
-/* Move the course index close away from under the dropped logo */
-[id^="page-course"] .drawer.drawer-left .drawertoggle {
-    margin-left: 190px!important;
-}
-
 /* Remove the padding at the top of a modal dialog box */
 .modal-dialog, .modal-dialog .modal-dialog-scrollable {
     padding-top: unset!important;
