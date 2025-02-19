@@ -112,12 +112,11 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 
 /* Start of Footer changes */
 
+@media (min-width: 768px) {
 #footnote {
         margin-left: -3rem !important;
         margin-right: -3rem !important;
 }
-
-@media (min-width: 768px) {
 #footnote .footer-upper {
     display: flex;
     flex-direction: column;
