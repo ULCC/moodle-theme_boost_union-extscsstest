@@ -41,9 +41,9 @@ label.form-check:has(> #id_assignsubmission_mahara_enabled),
     display: none;
 }
 
-/* Page colour gradient from light grey to grey for better accessibility */
+/* Page background colour to white */
 #page {
-    background-image: linear-gradient(0deg,#a9a8a8 25%,#cfcfcf 100%);
+    background: white;
 }
 
 /* Change the background colour of the Footer to White */
