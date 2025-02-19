@@ -117,7 +117,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     .footer-logo img {
         width: 100px;
         height: auto;
-	text-align: left;
+	text-align: left !important;
     }
 }
 
