@@ -73,8 +73,16 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     height: 51px;
 }
 
+/* size of selected buttons */
 .primary-navigation .navigation {
     height: 55px;
+}
+
+/* Size of screen at top after reduction in the navbar size */
+@media (min-width: 992px) {
+    .drawer-left, .drawer-right {
+        top: 48px;
+    }
 }
 
 /* make all admin and grade pages appear full screen width */
