@@ -51,9 +51,11 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
         background-color: white;
     }
 
+/* Size of  the logo */
 .navbar.fixed-top .navbar-brand .logo {
         width: 80px;
         height: auto;
+	max-height: unset !important;
 }
 
 /* move open close bars down slightly on non-mobile devices */
