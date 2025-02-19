@@ -151,6 +151,8 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
         padding: 3rem calc(4rem + 15px) 2rem;
     }
 }
+
+@media (min-width: 768px) {
 #footnote .footer-upper .footer-logo img {
     width: 132px;
 }
@@ -184,6 +186,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 #footnote .footer-lower .tel {
     display: block;
     margin-top: 1rem;
+  }
 }
 
 /* End of Footer changes */
