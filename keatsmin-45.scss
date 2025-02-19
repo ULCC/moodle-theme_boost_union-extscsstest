@@ -20,12 +20,12 @@
     body {
         font-size: 14px; /* Reduce font size for mobile */
     }
+}
     
-    /* Optional: Further reduce the font size for very small screens */
-    @media (max-width: 480px) {
-        body {
-            font-size: 13px;
-        }
+/* Optional: Further reduce the font size for very small screens */
+@media (max-width: 480px) {
+    body {
+        font-size: 13px;
     }
 }
 
