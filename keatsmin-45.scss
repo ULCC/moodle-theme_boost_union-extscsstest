@@ -114,7 +114,7 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 
 /* Size and postitioning of logo for mobiles */
 @media (max-width: 767px) {
-    .footer-logo img {
+    .footer-logo {
         width: 100px;
         height: auto;
 	text-align: left !important;
