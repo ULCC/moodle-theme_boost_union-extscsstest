@@ -119,6 +119,10 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
         height: auto;
 	text-align: left !important;
     }
+    #footnote {
+        margin-left: unset;
+        margin-right: unset;
+    }
 }
 
 @media (min-width: 768px) {
