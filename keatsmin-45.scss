@@ -78,11 +78,6 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     max-width: 100% !important;
 }
 
-/* move the course index draw down slightly, otherwise the close button appears under the KCL logo */
-[id^="page-grade"] .drawer .drawerheader {
-    margin: 2.5rem 0.5rem;
-}
-
 /* make all admin pages rows white */
 [id^="page"] .row {
     background-color: #FFFFFF;
