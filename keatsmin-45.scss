@@ -85,6 +85,11 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     }
 }
 
+/* reduction in the distance from top needed because of the reduction of the navbar */
+.navbar .popover-region-container {
+    top: 48px;
+}
+
 /* make all admin and grade pages appear full screen width */
 [id^="page-admin"] .main-inner, [id^="page-grade"] .main-inner {
     max-width: 100% !important;
