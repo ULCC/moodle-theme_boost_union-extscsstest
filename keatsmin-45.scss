@@ -15,6 +15,20 @@
     font-style: normal;
 }
 
+/* Base font styles */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px; /* Adjust base size as needed */
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Header styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Wix Madefor Display", sans-serif;
+    font-weight: 400; /* Adjust as needed */
+}
+
 /* Smaller font size for mobile devices */
 @media (max-width: 768px) {
     body {
