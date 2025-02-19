@@ -58,12 +58,6 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 	max-height: unset !important;
 }
 
-/* move open close bars down slightly on non-mobile devices */
-	.drawer-toggles .drawer-toggler {
-		top: calc(100px + 0.7rem);
-	}
-}
-
 /* make all admin and grade pages appear full screen width */
 [id^="page-admin"] .main-inner, [id^="page-grade"] .main-inner {
     max-width: 100% !important;
