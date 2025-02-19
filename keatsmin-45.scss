@@ -63,6 +63,11 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     height: 48px;
 }
 
+/* Size of page (originally 60px) */
+#page.drawers {
+    margin-top: 48px;
+ }
+
 /* make all admin and grade pages appear full screen width */
 [id^="page-admin"] .main-inner, [id^="page-grade"] .main-inner {
     max-width: 100% !important;
