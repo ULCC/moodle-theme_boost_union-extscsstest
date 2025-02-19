@@ -85,8 +85,13 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
     }
 }
 
-/* reduction in the distance from top needed because of the reduction of the navbar */
+/* motifications reduction in the distance from top needed because of the reduction of the navbar */
 .navbar .popover-region-container {
+    top: 48px;
+}
+
+/* Chat pop out reduction in the distance from top needed because of the reduction of the navbar */
+[data-region=right-hand-drawer].drawer {
     top: 48px;
 }
 
