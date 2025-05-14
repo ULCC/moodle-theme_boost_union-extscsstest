@@ -222,4 +222,10 @@ body:not(.backgroundimage):not(.loginbackgroundimage) #footnote {
 #page-enrol-instances label, #page-admin-roles-permissions label {
     padding-right: 10px;
 	margin-bottom: unset;
-}	
+}
+
+/* Fix for Questionnaire on Moodle 4.5 - Until developer releases a new version */
+/* taken from here : https://moodle.org/mod/forum/discuss.php?d=463097 */
+#page-mod-questionnaire-questions .qcontainer .qnums ~ input[type=image] {
+    max-height: 1em;
+}
